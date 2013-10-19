@@ -27,6 +27,7 @@ ant:
     precise: [ant]
     quantal: [ant]
     raring: [ant]
+    saucy: [ant]
 antlr:
   arch: [antlr]
   debian: [antlr, libantlr-dev]
@@ -92,6 +93,9 @@ assimp:
     raring:
       apt:
         packages: [libassimp-dev]
+    saucy:
+      apt:
+        packages: [libassimp-dev]
 assimp-dev:
   arch: [assimp]
   debian:
@@ -114,6 +118,9 @@ assimp-dev:
       apt:
         packages: [libassimp-dev]
     raring:
+      apt:
+        packages: [libassimp-dev]
+    saucy:
       apt:
         packages: [libassimp-dev]
 atlas:
@@ -259,6 +266,9 @@ boost:
     raring:
       apt:
         packages: [libboost-all-dev]
+    saucy:
+      apt:
+        packages: [libboost-all-dev]
 bullet:
   arch: [bullet]
   fedora: [bullet-devel]
@@ -273,6 +283,9 @@ bullet:
       apt:
         packages: [libbullet-dev]
     raring:
+      apt:
+        packages: [libbullet-dev]
+    saucy:
       apt:
         packages: [libbullet-dev]
 bzip2:
@@ -399,6 +412,7 @@ eclipse:
     precise: [eclipse, eclipse-platform, eclipse-rcp, eclipse-emf, eclipse-xsd, eclipse-pde]
     quantal: [eclipse, eclipse-platform, eclipse-rcp, eclipse-emf, eclipse-xsd, eclipse-pde]
     raring: [eclipse, eclipse-platform, eclipse-rcp, eclipse-emf, eclipse-xsd, eclipse-pde]
+    saucy: [eclipse, eclipse-platform, eclipse-rcp, eclipse-emf, eclipse-xsd, eclipse-pde]
 eigen:
   arch: [eigen3]
   debian:
@@ -610,6 +624,7 @@ gstreamer0.10-plugins-ugly:
     precise: [gstreamer0.10-plugins-ugly]
     quantal: [gstreamer0.10-plugins-ugly]
     raring: [gstreamer0.10-plugins-ugly]
+    saucy: [gstreamer0.10-plugins-ugly]
 gstreamer0.10-pocketsphinx:
   ubuntu: [gstreamer0.10-pocketsphinx]
 gtest:
@@ -900,6 +915,7 @@ libflann:
     precise:  [libflann1]
     quantal:  [libflann1.7]
     raring:  [libflann1.7]
+    saucy:  [libflann1.7]
 libflann-dev:
   arch: [flann]
   debian: [libflann-dev]
@@ -954,6 +970,7 @@ libglew-dev:
     precise: [libglew1.6-dev]
     quantal: [libglew-dev]
     raring: [libglew-dev]
+    saucy: [libglew-dev]
 libglib-dev:
   arch: [glib2]
   debian: [libglib2.0-dev]
@@ -1081,6 +1098,7 @@ libjpeg:
     precise: [libjpeg-dev]
     quantal: [libjpeg-dev]
     raring: [libjpeg-dev]
+    saucy: [libjpeg-dev]
 libjson-glib:
   arch: [json-glib]
   debian: [libjson-glib-dev]
@@ -1250,6 +1268,7 @@ libopenscenegraph:
     precise: [openscenegraph, libopenscenegraph-dev, libopenscenegraph80, libopenthreads-dev, libopenthreads14]
     quantal: [openscenegraph, libopenscenegraph-dev, libopenscenegraph80, libopenthreads-dev, libopenthreads14]
     raring: [openscenegraph, libopenscenegraph-dev, libopenscenegraph80, libopenthreads-dev, libopenthreads14]
+    saucy: [openscenegraph, libopenscenegraph-dev, libopenscenegraph80, libopenthreads-dev, libopenthreads14]
 libosmesa6-dev:
   arch: [mesa]
   debian: [libosmesa6-dev]
@@ -1552,6 +1571,7 @@ libtiff-dev:
     precise: [libtiff4-dev]
     quantal: [libtiff5-dev]
     raring: [libtiff5-dev]
+    saucy: [libtiff5-dev]
 libtiff4-dev:
   arch: [libtiff]
   debian: [libtiff4-dev]
@@ -1628,6 +1648,7 @@ libvtk:
     precise: [libvtk5-dev]
     quantal: [libvtk5-dev]
     raring: [libvtk5-dev]
+    saucy: [libvtk5-dev]
 libvtk-qt:
   arch: [vtk]
   debian: [libvtk5-qt4-dev]
@@ -1822,6 +1843,7 @@ omniidl:
     precise: [omniidl]
     quantal: [omniidl]
     raring: [omniidl]
+    saucy: [omniidl]
 omniorb:
   arch: [omniorb]
   debian: [omniorb4, omniidl4, omniorb4-nameserver, libomniorb4-1, libomniorb4-dev, libomnithread3-dev, libomnithread3c2]
@@ -1834,6 +1856,7 @@ omniorb:
     precise: [omniorb, omniidl, omniorb-nameserver, libomniorb4-1, libomniorb4-dev, libomnithread3-dev, libomnithread3c2]
     quantal: [omniorb, omniidl, omniorb-nameserver, libomniorb4-1, libomniorb4-dev, libomnithread3-dev, libomnithread3c2]
     raring: [omniorb, omniidl, omniorb-nameserver, libomniorb4-1, libomniorb4-dev, libomnithread3-dev, libomnithread3c2]
+    saucy: [omniorb, omniidl, omniorb-nameserver, libomniorb4-1, libomniorb4-dev, libomnithread3-dev, libomnithread3c2]
 omniorb4-idl:
   arch: [omniorb]
   debian: [omniorb-idl]
@@ -1964,6 +1987,7 @@ ruby:
     precise: [ruby1.8-dev, libruby1.8, rubygems1.8]
     quantal: [ruby1.9.1-dev, libruby1.9.1, rubygems]
     raring: [ruby1.9.1-dev, libruby1.9.1, rubygems]
+    saucy: [ruby1.9.1-dev, libruby1.9.1, rubygems]
 sbcl:
   arch: [sbcl]
   debian: [sbcl]
@@ -2063,6 +2087,7 @@ swi-prolog-clib:
     precise: [swi-prolog]
     quantal: [swi-prolog]
     raring: [swi-prolog]
+    saucy: [swi-prolog]
 swi-prolog-http:
   arch: [swi-prolog]
   debian: [swi-prolog-http]
@@ -2074,6 +2099,7 @@ swi-prolog-http:
     precise: [swi-prolog]
     quantal: [swi-prolog]
     raring: [swi-prolog]
+    saucy: [swi-prolog]
 swi-prolog-odbc:
   arch: [swi-prolog]
   debian: [swi-prolog-odbc]
@@ -2090,6 +2116,7 @@ swi-prolog-semweb:
     precise: [swi-prolog]
     quantal: [swi-prolog]
     raring: [swi-prolog]
+    saucy: [swi-prolog]
 swi-prolog-sgml:
   arch: [swi-prolog]
   debian: [swi-prolog-sgml]
@@ -2101,6 +2128,7 @@ swi-prolog-sgml:
     precise: [swi-prolog]
     quantal: [swi-prolog]
     raring: [swi-prolog]
+    saucy: [swi-prolog]
 swi-prolog-xpce:
   arch: [swi-prolog]
   debian: [swi-prolog-xpce]
@@ -2113,6 +2141,7 @@ swi-prolog-xpce:
     precise: [swi-prolog]
     quantal: [swi-prolog]
     raring: [swi-prolog]
+    saucy: [swi-prolog]
 sysstat:
   arch: [sysstat]
   debian: [sysstat]
@@ -2367,6 +2396,9 @@ xulrunner-1.9.2:
     raring:
       apt:
         packages: []
+    saucy:
+      apt:
+        packages: []
 xulrunner-dev:
   arch: [xulrunner]
   debian: [libv8-dev]
@@ -2408,6 +2440,7 @@ yaml-cpp:
     precise: [yaml-cpp]
     quantal: [libyaml-cpp-dev]
     raring: [libyaml-cpp-dev]
+    saucy: [libyaml-cpp-dev]
 yasm:
   arch: [yasm]
   debian: [yasm]

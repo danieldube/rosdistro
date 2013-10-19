@@ -42,6 +42,8 @@ python-argparse:
       packages: []
     raring:
       packages: []
+    saucy:
+      packages: []
 python-avahi:
   debian: [python-avahi]
   ubuntu: [python-avahi]
@@ -206,6 +208,7 @@ python-omniorb:
     precise: [python-omniorb, omniidl-python]
     quantal: [python-omniorb, omniidl-python]
     raring: [python-omniorb, omniidl-python]
+    saucy: [python-omniorb, omniidl-python]
 python-opengl:
   debian: [python-opengl]
   fedora: [PyOpenGL]
@@ -244,6 +247,7 @@ python-pyassimp:
     precise: [python-pyassimp]
     quantal: [python-pyassimp]
     raring: [python-pyassimp]
+    saucy: [python-pyassimp]
 python-pydot:
   debian: [python-pydot]
   fedora: [pydot]
@@ -314,6 +318,7 @@ python-qt-bindings:
     precise: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, libgenrunner-dev, python-qt4, python-qt4-dev, python-sip-dev]
     quantal: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
     raring: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
+    saucy: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
 python-qt-bindings-gl:
   debian: [python-qt4-gl]
   fedora: [PyQt4]
