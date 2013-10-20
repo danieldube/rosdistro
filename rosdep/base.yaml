@@ -268,7 +268,7 @@ boost:
         packages: [libboost-all-dev]
     saucy:
       apt:
-        packages: [libboost-all-dev]
+        packages: [libboost1.49-all-dev]
 bullet:
   arch: [bullet]
   fedora: [bullet-devel]
