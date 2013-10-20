@@ -352,12 +352,12 @@ python-rosdep:
       packages: [rosdep]
   ubuntu: 
     pip:
-      packages: [python-rosdep]
+      packages: [rosdep]
 python-rosinstall:
   fedora: [python-rosinstall]
   ubuntu: 
     pip:
-      packages: [python-rosinstall]
+      packages: [rosinstall]
 python-rosinstall-generator:
   ubuntu: [python-rosinstall-generator]
 python-rospkg:
@@ -365,7 +365,7 @@ python-rospkg:
   fedora: [python-rospkg]
   ubuntu: 
     pip:  
-      packages: [python-rospkg]
+      packages: [rospkg]
 python-scapy:
   debian: [python-scapy]
   ubuntu: [python-scapy]
