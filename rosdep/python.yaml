@@ -350,16 +350,22 @@ python-rosdep:
   osx:
     pip:
       packages: [rosdep]
-  ubuntu: [python-rosdep]
+  ubuntu: 
+    pip:
+      packages: [python-rosdep]
 python-rosinstall:
   fedora: [python-rosinstall]
-  ubuntu: [python-rosinstall]
+  ubuntu: 
+    pip:
+      packages: [python-rosinstall]
 python-rosinstall-generator:
   ubuntu: [python-rosinstall-generator]
 python-rospkg:
   debian: [python-rospkg]
   fedora: [python-rospkg]
-  ubuntu: [python-rospkg]
+  ubuntu: 
+    pip:  
+      packages: [python-rospkg]
 python-scapy:
   debian: [python-scapy]
   ubuntu: [python-scapy]
