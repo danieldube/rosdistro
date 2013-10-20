@@ -1294,8 +1294,16 @@ libpcap:
       packages: [libpcap0.8-dev]
 libpcl-all:
   ubuntu: [libpcl-1.7-all]
+  ubuntu:
+    saucy:
+      apt:
+        packages: [libpcl1]
 libpcl-all-dev:
   ubuntu: [libpcl-1.7-all-dev]
+  ubuntu:
+    saucy:
+      apt:
+        packages: [libpcl1-dev]
 libpcsclite-dev:
   arch: [pcsclite]
   debian: [libpcsclite-dev]
