@@ -65,6 +65,10 @@ python-catkin-pkg:
     pip:
       packages: [catkin-pkg]
   ubuntu: [python-catkin-pkg]
+  ubuntu:
+    saucy:
+      pip:
+        packages: [catkin-pkg]
 python-clearsilver:
   centos: [python-clearsilver]
   debian: [python-clearsilver]
